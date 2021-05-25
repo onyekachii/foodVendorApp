@@ -1,0 +1,30 @@
+main{
+    padding:3vh 5vw;
+    background-color: #fff;
+}
+.main-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1vh 5vw;
+    background-color: white;
+}
+#h6{
+    background-color: #f5f6f7;
+
+}
+.img-main{
+    width:50vw;
+}
+@media screen and (min-width:426px)and (max-width: 768px) {
+    main {
+        margin-left:6vw;
+    }
+    #tabletMain{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .img-main {
+        width: 80%;
+    }
+}

@@ -1,0 +1,18 @@
+#showCase {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: #f5f6f7 ;
+    overflow-x: scroll;
+    
+}
+#showCase>a{
+    margin:1vh 1vw;
+    max-width: 100px;
+    background-color: white;
+}
+.a1{
+    width:100px;
+    height: 80px;
+    background-color: #f5f6f7;
+}

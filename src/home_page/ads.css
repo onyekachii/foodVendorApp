@@ -1,0 +1,50 @@
+#search-form{
+    display: none;
+}
+.carousel{
+    z-index: 1;
+}
+.img-caro {
+    width: 100vw;
+    height: 56.25vw;
+}
+
+.carousel-indicators li {
+    background-color: black;
+    opacity: 0.4;
+    border-radius: 5px;
+    height: 10px;
+    width: 10px;
+}
+
+#para {
+    background-color:floralwhite;
+}
+
+@media screen and (min-width:426px) and (max-width: 768px) {
+    #search-form{
+        display: flex;
+        background-color: #f5f6f7;
+        margin-bottom:  0px;
+        padding: 2vh 0;
+    }
+
+    #input-form {
+        width: 50vw;
+    }
+
+    #button-form {
+        background-color: #f5f6f7;
+    }
+    .carousel {
+        background-color: #f5f6f7;
+        text-align: center;
+        margin-left: 6vw;
+    }
+    
+    .img-caro {
+        border-radius: 25px;
+        width: 80vw;
+        height: 45vw;
+    }
+}
